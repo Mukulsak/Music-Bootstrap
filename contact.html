@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My First Web site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a href="/Bootstrap/index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img style="border-radius:10px;" class="bi" width="40" height="40" src="/Bootstrap/img/icons8-music.svg"
+          alt="">
+
+      </a>
+      <a class="navbar-brand" href="/Bootstrap/index.html">Music</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/Bootstrap/index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/Bootstrap/playlist.html">Playlist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Bootstrap/contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://gaana.com/" target="_blank">Gaana</a></li>
+              <li><a class="dropdown-item" href="https://open.spotify.com/" target="_blank">Spotify</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://www.google.com/" target="_blank">More
+                  Applications Search
+                  Here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search songs" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="form-group my-4">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control my-3" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Select your Interst</label>
+        <select class="form-control my-3" id="exampleFormControlSelect1">
+          <option>Select...</option>
+          <option>PoP</option>
+          <option>Classical</option>
+          <option>Hip-Hop and Rap</option>
+          <option>Metal</option>
+          <option>Country</option>
+          <option>Gospel</option>
+          <option>Folk</option>
+        </select>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2">Are you a Member?</div>
+        <div class="col-sm-10">
+          <div class="form-check my-1">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Yes
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2">Are you a Singer?</div>
+        <div class="col-sm-10">
+          <div class="form-check my-1">
+            <input class="form-check-input" type="checkbox" id="gridCheck2">
+            <label class="form-check-label" for="gridCheck2">
+              Yes
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2">Are you a listener?</div>
+        <div class="col-sm-10">
+          <div class="form-check my-1">
+            <input class="form-check-input" type="checkbox" id="gridCheck3">
+            <label class="form-check-label" for="gridCheck3">
+              Yes
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group my-3">
+        <label for="exampleFormControlTextarea1">Tell us about yourself:</label>
+        <textarea class="form-control my-1" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="form-group my-3">
+        <label for="exampleFormControlTextarea2">Elaborate Your Concern:</label>
+        <textarea class="form-control my-1" id="exampleFormControlTextarea2" rows="3"></textarea>
+      </div>
+      <button class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+
+
+
+
+  <div id="torrent-scanner-popup" style="display: none;"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
